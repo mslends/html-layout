@@ -1,0 +1,41 @@
+html, body {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+.main-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.left-container {
+  background-color: #4a90e2;
+  height: 100vh;
+  width: 33%;
+}
+.middle-container {
+  background-color: #50e3c2;
+  height: 100vh;
+  width: 33%;
+}
+.right-container {
+  background-color: #b8e986;
+  height: 100vh;
+  width: 33%;
+}
+.red-box{
+  background-color: red;
+  height: 30vh;
+  width: 100%;
+  margin-top: 70vh;
+  text-align: center;
+}
+.text {
+  color: white;
+  font-size: 2em;
+  padding-top: 15vh;
+}
