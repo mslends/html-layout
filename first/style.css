@@ -1,0 +1,33 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0 auto;
+}
+.main-container {
+  background-color: #d8d8d8;
+  width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+}
+.top-container {
+  background-color: #444444;
+  height: 200px;
+  width: 100%;
+}
+.middle-container {
+  background-color: #efefef;
+  width: 800px;
+  height: 670px;
+  margin-left: 100px;
+}
+.bottom-container {
+  background-color: #222222;
+  width: 800px;
+  height: 100px;
+  margin-left: 100px;
+}
